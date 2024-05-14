@@ -1,5 +1,6 @@
-from flask import Flask, redirect, url_for, session, request, jsonify, Markup
+from flask import Flask, redirect, url_for, session, request, jsonify
 from flask import render_template
+from markupsafe import Markup
 
 app = Flask(__name__)
 
